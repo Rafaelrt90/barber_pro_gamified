@@ -11,10 +11,10 @@ class LevelBadge extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
       decoration: BoxDecoration(
-        color: AppColors.primary.withAlpha(30), // Fundo translúcido
+        color: AppColors.primary.withAlpha(30), 
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: AppColors.primary, width: 1),
-      ), // BoxDecoration
+      ), 
       child: Text(
         label.toUpperCase(),
         style: const TextStyle(
@@ -22,8 +22,8 @@ class LevelBadge extends StatelessWidget {
           fontSize: 10,
           fontWeight: FontWeight.bold,
           letterSpacing: 1.2,
-        ), // TextStyle
-      ), // Text
-    ); // Container
+        ), 
+      ), 
+    ); 
   }
 }
